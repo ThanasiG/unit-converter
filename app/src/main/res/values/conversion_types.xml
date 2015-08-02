@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversion_types">
+        <item>kilogram</item>
+        <item>metricTon</item>
+        <item>hectogram</item>
+        <item>dekagram</item>
+        <item>gram</item>
+        <item>carat</item>
+        <item>decigram</item>
+        <item>centigram</item>
+        <item>milligram</item>
+        <item>microgram</item>
+        <item>longTon</item>
+        <item>shortTon</item>
+        <item>pound</item>
+        <item>ounce</item>
+        <item>dram</item>
+    </string-array>
+</resources>
