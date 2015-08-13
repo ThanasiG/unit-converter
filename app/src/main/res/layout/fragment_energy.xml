@@ -45,7 +45,7 @@
             android:padding="15dp">
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_mt"
+                android:id="@+id/card_view_gj"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -53,21 +53,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/metricTonTitle_text_view"
+                        android:id="@+id/gigajouleTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_metric_ton"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_gigajoule"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/metricTon_text_view"
+                        android:id="@+id/gigajoule_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -77,7 +79,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_kg"
+                android:id="@+id/card_view_mj"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -85,21 +87,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/kilogramTitle_text_view"
+                        android:id="@+id/megajouleTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_kilogram"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_megajoule"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/kilogram_text_view"
+                        android:id="@+id/megajoule_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -109,7 +113,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_hg"
+                android:id="@+id/card_view_kj"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -117,21 +121,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/hectogramTitle_text_view"
+                        android:id="@+id/kilojouleTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_hectogram"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_kilojoule"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/hectogram_text_view"
+                        android:id="@+id/kilojoule_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -141,7 +147,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_dag"
+                android:id="@+id/card_view_j"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -149,21 +155,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/dekagramTitle_text_view"
+                        android:id="@+id/jouleTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_dekagram"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_joule"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/dekagram_text_view"
+                        android:id="@+id/joule_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -173,7 +181,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_g"
+                android:id="@+id/card_view_ergs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -181,21 +189,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/gramTitle_text_view"
+                        android:id="@+id/ergsTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_gram"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_ergs"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/gram_text_view"
+                        android:id="@+id/ergs_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -205,7 +215,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_ct"
+                android:id="@+id/card_view_kcal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -213,21 +223,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/caratTitle_text_view"
+                        android:id="@+id/kilocalorieTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_carat"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_kilocalorie"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/carat_text_view"
+                        android:id="@+id/kilocalorie_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -237,7 +249,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_dg"
+                android:id="@+id/card_view_cal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -245,21 +257,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/decigramTitle_text_view"
+                        android:id="@+id/calorieTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_decigram"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_calorie"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/decigram_text_view"
+                        android:id="@+id/calorie_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -269,7 +283,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_cg"
+                android:id="@+id/card_view_ncal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -277,21 +291,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/centigramTitle_text_view"
+                        android:id="@+id/nutritionalcalorieTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_centigram"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_nutritional_calorie"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/centigram_text_view"
+                        android:id="@+id/nutritionalcalorie_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -301,7 +317,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_mg"
+                android:id="@+id/card_view_kwh"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -309,21 +325,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/milligramTitle_text_view"
+                        android:id="@+id/kilowatthourTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_milligram"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_kilowatt_hour"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/milligram_text_view"
+                        android:id="@+id/kilowatthour_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -333,7 +351,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_mcg"
+                android:id="@+id/card_view_wh"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -341,21 +359,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/microgramTitle_text_view"
+                        android:id="@+id/watthourTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_microgram"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_watt_hour"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/microgram_text_view"
+                        android:id="@+id/watthour_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -365,7 +385,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_lt"
+                android:id="@+id/card_view_ftlbf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -373,21 +393,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/longTonTitle_text_view"
+                        android:id="@+id/footpoundTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_long_ton"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_foot_pound"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/longTon_text_view"
+                        android:id="@+id/footpound_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -397,7 +419,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_st"
+                android:id="@+id/card_view_inlbf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -405,21 +427,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/shortTonTitle_text_view"
+                        android:id="@+id/inchpoundTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_short_ton"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_inch_pound"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/shortTon_text_view"
+                        android:id="@+id/inchpound_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -429,7 +453,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_lbs"
+                android:id="@+id/card_view_btu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -437,21 +461,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/poundTitle_text_view"
+                        android:id="@+id/btuTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_pound"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_btu"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/pound_text_view"
+                        android:id="@+id/btu_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -461,7 +487,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card_view_oz"
+                android:id="@+id/card_view_ev"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -469,21 +495,23 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="4dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
-                        android:id="@+id/ounceTitle_text_view"
+                        android:id="@+id/electronvoltTitle_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/title_ounce"
-                        android:paddingBottom="5dp"
                         android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/title_electronvolt"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/ounce_text_view"
+                        android:id="@+id/electronvolt_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -492,69 +520,6 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/card_view_dr"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="10dp"
-                android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="4dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-                    <TextView
-                        android:id="@+id/dramTitle_text_view"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/title_dram"
-                        android:paddingBottom="5dp"
-                        android:layout_marginLeft="5dp"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:id="@+id/dram_text_view"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="right"
-                        android:layout_marginRight="5dp"
-                        android:textSize="19sp" />
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/card_view_gr"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="10dp"
-                android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="4dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-                    <TextView
-                        android:id="@+id/grainTitle_text_view"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/title_grain"
-                        android:paddingBottom="5dp"
-                        android:layout_marginLeft="5dp"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:id="@+id/grain_text_view"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="right"
-                        android:layout_marginRight="5dp"
-                        android:textSize="19sp" />
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
 
         </LinearLayout>
     </ScrollView>

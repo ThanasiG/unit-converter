@@ -2,6 +2,97 @@
     <string name="app_name">Unit Converter</string>
 
     <string name="action_settings">Settings</string>
+    <string name="convert_from">Convert from</string>
+
+    <string name="title_activity_area">Area</string>
+    <string name="title_sqkm">Square Kilometer (km<sup><small>2</small></sup>)</string>
+    <string name="title_ha">Hectare (ha)</string>
+    <string name="title_sqm">Square Meter (m<sup><small>2</small></sup>)</string>
+    <string name="title_sqcm">Square Centimeter (cm<sup><small>2</small></sup>)</string>
+    <string name="title_sqmi">Square Mile (mi<sup><small>2</small></sup>)</string>
+    <string name="title_ac">Acre (ac)</string>
+    <string name="title_sqyd">Square Yard (yd<sup><small>2</small></sup>)</string>
+    <string name="title_sqft">Square Foot (ft<sup><small>2</small></sup>)</string>
+    <string name="title_sqin">Square Inch (in<sup><small>2</small></sup>)</string>
+
+    <string name="title_activity_currency">Currency</string>
+    <string name="title_usd">United States Dollar (USD)</string>
+    <string name="title_eur">Euro (EUR)</string>
+    <string name="title_gbp">British Pound (GBP)</string>
+    <string name="title_cad">Canadian Dollar (CAD)</string>
+    <string name="title_aud">Australian Dollar (AUD)</string>
+    <string name="title_brl">Brazilian Real (BRL)</string>
+    <string name="title_bgn">Bulgarian Lev (BGN)</string>
+    <string name="title_cny">Chinese Yuan (CNY)</string>
+    <string name="title_hrk">Croatian Kuna (HRK)</string>
+    <string name="title_czk">Czech Koruna (CZK)</string>
+    <string name="title_dkk">Danish Krone (DKK)</string>
+    <string name="title_hkd">Hong Kong Dollar (HKD)</string>
+    <string name="title_huf">Hungarian Forint (HUF)</string>
+    <string name="title_inr">Indian Rupee (INR)</string>
+    <string name="title_idr">Indonesian Rupiah (IDR)</string>
+    <string name="title_ils">Irsaeli New Shekel (ILS)</string>
+    <string name="title_jpy">Japanese Yen (JPY)</string>
+    <string name="title_myr">Malaysian Ringgit (MYR)</string>
+    <string name="title_mxn">Mexican Peso (MXN)</string>
+    <string name="title_nzd">New Zealand Dollar (NZD)</string>
+    <string name="title_nok">Norwegian Krone (NOK)</string>
+    <string name="title_php">Philippine Peso (PHP)</string>
+    <string name="title_pln">Polish Zloty (PLN)</string>
+    <string name="title_ron">Romanian Leu (RON)</string>
+    <string name="title_rub">Russian Ruble (RUB)</string>
+    <string name="title_zar">South African Rand (ZAR)</string>
+    <string name="title_krw">South Korean Won (KRW)</string>
+    <string name="title_sgd">Singapore Dollar (SGD)</string>
+    <string name="title_sek">Swedish Krona (SEK)</string>
+    <string name="title_chf">Swiss Franc (CHF)</string>
+    <string name="title_thb">Thai Baht (THB)</string>
+    <string name="title_try">Turkish Lira (TRY)</string>
+
+    <string name="title_activity_digital_storage">Digital Storage</string>
+    <string name="title_terabyte">Terabyte (TB)</string>
+    <string name="title_terabit">Terabit (tb)</string>
+    <string name="title_gigabyte">Gigabyte (GB)</string>
+    <string name="title_gigabit">Gigabit (gb)</string>
+    <string name="title_megabyte">Megabyte (MB)</string>
+    <string name="title_megabit">Megabit (mb)</string>
+    <string name="title_kilobyte">Kilobyte (KB)</string>
+    <string name="title_kilobit">Kilobit (kb)</string>
+    <string name="title_byte">Byte (B)</string>
+    <string name="title_bit">Bit (b)</string>
+
+    <string name="title_activity_energy">Energy</string>
+    <string name="title_gigajoule">Gigajoule (gJ)</string>
+    <string name="title_megajoule">Megajoule (mJ)</string>
+    <string name="title_kilojoule">Kilojoule (kJ)</string>
+    <string name="title_joule">Joule (J)</string>
+    <string name="title_ergs">Ergs (erg)</string>
+    <string name="title_kilocalorie">Kilocalorie (kcal)</string>
+    <string name="title_calorie">Calorie (cal)</string>
+    <string name="title_nutritional_calorie">Nutritional Calorie (Cal)</string>
+    <string name="title_kilowatt_hour">Kilowatt-Hour (kWh)</string>
+    <string name="title_watt_hour">Watt-Hour (Wh)</string>
+    <string name="title_foot_pound">Foot-Pound (ft-lbf)</string>
+    <string name="title_inch_pound">Inch-Pound (in-lbf)</string>
+    <string name="title_btu">British Thermal Unit (btu)</string>
+    <string name="title_electronvolt">Electronvolt (eV)</string>
+
     <string name="title_activity_weight">Weight and Mass</string>
+    <string name="title_metric_ton">Metric Ton (MT)</string>
+    <string name="title_kilogram">Kilogram (kg)</string>
+    <string name="title_hectogram">Hectogram (hg)</string>
+    <string name="title_dekagram">Dekagram (dag)</string>
+    <string name="title_gram">Gram (g)</string>
+    <string name="title_carat">Carat (ct)</string>
+    <string name="title_decigram">Decigram (dg)</string>
+    <string name="title_centigram">Centigram (cg)</string>
+    <string name="title_milligram">Milligram (mg)</string>
+    <string name="title_microgram">Microgram (mcg)</string>
+    <string name="title_long_ton">Long Ton (l.t.)</string>
+    <string name="title_short_ton">Short Ton (s.t.)</string>
+    <string name="title_pound">Pound (lbs)</string>
+    <string name="title_ounce">Ounce (oz)</string>
+    <string name="title_dram">Dram (dr)</string>
+    <string name="title_grain">Grain (gr)</string>
 
 </resources>

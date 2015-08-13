@@ -15,12 +15,12 @@ import android.widget.Toast;
 public class MainFragment extends Fragment implements SharedPreferences.OnSharedPreferenceChangeListener {
 
     ListView mListView;
-    UnitsAdapter mUnitsAdapter;
+    UnitTypeListAdapter mUnitsAdapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mUnitsAdapter = new UnitsAdapter(getActivity(), UnitListInfo.UNIT_IMAGES, UnitListInfo.UNIT_CATEGORIES, UnitListInfo.UNIT_DESCRIPTIONS);
+        mUnitsAdapter = new UnitTypeListAdapter(getActivity(), UnitListInfo.UNIT_IMAGES, UnitListInfo.UNIT_CATEGORIES, UnitListInfo.UNIT_DESCRIPTIONS);
     }
 
     @Override
@@ -36,15 +36,11 @@ public class MainFragment extends Fragment implements SharedPreferences.OnShared
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 0) {
-                    Intent intentWeight = new Intent(getActivity(), SecondActivity.class);
-                    intentWeight.putExtra("positionclicked", position);
-                    startActivity(intentWeight);
-                } else if (position == 1) {
-                    Toast.makeText(getActivity(), "Position " + position + " clicked", Toast.LENGTH_LONG).show();
-                } else {
-                    Toast.makeText(getActivity(), "Position " + position + " clicked", Toast.LENGTH_LONG).show();
-                }
+
+                Intent intentSecondActivity = new Intent(getActivity(), SecondActivity.class);
+                intentSecondActivity.putExtra("positionclicked", position);
+                startActivity(intentSecondActivity);
+
             }
         });
 

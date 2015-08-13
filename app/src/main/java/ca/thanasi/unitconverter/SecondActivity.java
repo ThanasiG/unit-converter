@@ -2,7 +2,6 @@ package ca.thanasi.unitconverter;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -10,8 +9,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Toast;
 
+import ca.thanasi.unitconverter.area.AreaFragment;
+import ca.thanasi.unitconverter.currency.CurrencyFragment;
+import ca.thanasi.unitconverter.digitalstorage.DigitalStorageFragment;
+import ca.thanasi.unitconverter.energy.EnergyFragment;
 import ca.thanasi.unitconverter.weight.WeightFragment;
 
 public class SecondActivity extends AppCompatActivity {
@@ -21,20 +23,38 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_weight);
+        setContentView(R.layout.activity_unit_type);
 
         setAndStyleToolbar();
 
         Bundle bundle = getIntent().getExtras();
         position_clicked = bundle.getInt("positionclicked");
+
         if (position_clicked == 0) {
+            AreaFragment areaFragment = new AreaFragment();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_placeholder, areaFragment);
+            ft.commit();
+        } else if (position_clicked == 1) {
+            CurrencyFragment currencyFragment = new CurrencyFragment();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_placeholder, currencyFragment);
+            ft.commit();
+        }else if (position_clicked == 2) {
+            DigitalStorageFragment digitalStorageFragment = new DigitalStorageFragment();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_placeholder, digitalStorageFragment);
+            ft.commit();
+        } else if (position_clicked == 3) {
+            EnergyFragment energyFragment = new EnergyFragment();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_placeholder, energyFragment);
+            ft.commit();
+        } else if (position_clicked == 4) {
             WeightFragment weightFragment = new WeightFragment();
-            FragmentManager fm = getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.add(R.id.fragment_weight, weightFragment);
-        }
-        else if (position_clicked == 1) {
-            Toast.makeText(this, "Position " + position_clicked + " clicked", Toast.LENGTH_LONG).show();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_placeholder, weightFragment);
+            ft.commit();
         }
     }
 

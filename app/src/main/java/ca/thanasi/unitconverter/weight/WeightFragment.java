@@ -1,8 +1,5 @@
 package ca.thanasi.unitconverter.weight;
 
-import android.content.ClipData;
-import android.content.ClipboardManager;
-import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.text.Editable;
@@ -79,74 +76,76 @@ public class WeightFragment extends Fragment {
 
     public void checkIfConvertingFromKg(String currentUnit) {
 
-        if (currentUnit.equals("kilogram")) {
+        if (currentUnit.equals("Kilogram")) {
 
             updateUnitTypesUsingKg(WeightConversions.Weight.kilogram);
 
         } else {
 
-            if (currentUnit.equals("metricTon")) {
+            if (currentUnit.equals("Metric Ton")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.metricTon);
 
-            } else if (currentUnit.equals("hectogram")) {
+            } else if (currentUnit.equals("Hectogram")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.hectogram);
 
-            } else if (currentUnit.equals("dekagram")) {
+            } else if (currentUnit.equals("Dekagram")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.dekagram);
 
-            } else if (currentUnit.equals("gram")) {
+            } else if (currentUnit.equals("Gram")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.gram);
 
-            } else if (currentUnit.equals("carat")) {
+            } else if (currentUnit.equals("Carat")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.carat);
 
-            } else if (currentUnit.equals("decigram")) {
+            } else if (currentUnit.equals("Decigram")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.decigram);
 
-            } else if (currentUnit.equals("centigram")) {
+            } else if (currentUnit.equals("Centigram")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.centigram);
 
-            } else if (currentUnit.equals("milligram")) {
+            } else if (currentUnit.equals("Milligram")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.milligram);
 
-            } else if (currentUnit.equals("microgram")) {
+            } else if (currentUnit.equals("Microgram")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.microgram);
 
-            } else if (currentUnit.equals("longTon")) {
+            } else if (currentUnit.equals("Long Ton")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.longTon);
 
-            } else if (currentUnit.equals("shortTon")) {
+            } else if (currentUnit.equals("Short Ton")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.shortTon);
 
-            } else if (currentUnit.equals("pound")) {
+            } else if (currentUnit.equals("Pound")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.pound);
 
-            } else if (currentUnit.equals("ounce")) {
+            } else if (currentUnit.equals("Ounce")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.ounce);
 
-            } else if (currentUnit.equals("dram")) {
+            } else if (currentUnit.equals("Dram")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.dram);
 
-            } else {
+            } else if (currentUnit.equals("Grain")) {
 
                 updateUnitTypesUsingOther(WeightConversions.Weight.grain);
 
-            }
+            } else {
+                Toast.makeText(getActivity(), "Error converting", Toast.LENGTH_SHORT).show();
 
+            }
         }
 
     }
@@ -159,7 +158,7 @@ public class WeightFragment extends Fragment {
 
 
             // Combine value to unit
-            String kilogramValueAndUnit = doubleToConvert + " kg";
+            String kilogramValueAndUnit = doubleToConvert + "";
 
             // Change the value for the teaspoon TextView
             kilogramTextView.setText(kilogramValueAndUnit);
@@ -260,8 +259,7 @@ public class WeightFragment extends Fragment {
 
                 // Create the TextView text by taking the value in EditText and adding
                 // on the currently selected unit in the spinner
-                String currentUnitTextViewText = doubleToConvert + " " +
-                        currentQuantitySelected.weight.name();
+                String currentUnitTextViewText = doubleToConvert + "";
 
                 // Create the TextView name to change by getting the currently
                 // selected quantities unit name and tacking on _text_view
@@ -312,7 +310,7 @@ public class WeightFragment extends Fragment {
 
         // Create an ArrayAdapter using the string array and a default spinner layout
         unitTypeSpinnerAdapter = ArrayAdapter.createFromResource(getActivity(),
-                R.array.conversion_types, android.R.layout.simple_spinner_item);
+                R.array.weight_conversions, android.R.layout.simple_spinner_item);
 
         // Specify the layout to use when the list of choices appears
         unitTypeSpinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -333,7 +331,8 @@ public class WeightFragment extends Fragment {
                 checkIfConvertingFromKg(itemSelectedInSpinner);
             }
 
-            public void onNothingSelected(AdapterView<?> arg0) { }
+            public void onNothingSelected(AdapterView<?> arg0) {
+            }
         });
     }
 
@@ -359,8 +358,8 @@ public class WeightFragment extends Fragment {
         kilogramTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // ClipboardManager clipboard = (ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);
-               // ClipData clipData = ClipData.newPlainText("unitText", kilogramTextView.getText().toString());
+                // ClipboardManager clipboard = (ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);
+                // ClipData clipData = ClipData.newPlainText("unitText", kilogramTextView.getText().toString());
             }
         });
 

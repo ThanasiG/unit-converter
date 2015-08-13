@@ -9,13 +9,13 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class UnitsAdapter extends ArrayAdapter<String> {
+public class UnitTypeListAdapter extends ArrayAdapter<String> {
     Activity mActivityContext;
     String[] mUnitCategory;
     String[] mUnitDesc;
     int[] mImage;
 
-    public UnitsAdapter(Activity context, int[] image, String[] unitCategory, String[] unitDesc) {
+    public UnitTypeListAdapter(Activity context, int[] image, String[] unitCategory, String[] unitDesc) {
         super(context, R.layout.custom_list_item, unitCategory);
 
         this.mActivityContext = context;
@@ -29,8 +29,8 @@ public class UnitsAdapter extends ArrayAdapter<String> {
         View rowView = inflater.inflate(R.layout.custom_list_item, null, true);
 
         ImageView ivUnitType = (ImageView) rowView.findViewById(R.id.list_item_icon);
-        TextView tvUnitName = ((TextView) rowView.findViewById(R.id.unit_type_text));
-        TextView tvUnitDesc = ((TextView) rowView.findViewById(R.id.unit_desc_text));
+        TextView tvUnitName = (TextView) rowView.findViewById(R.id.unit_type_text);
+        TextView tvUnitDesc = (TextView) rowView.findViewById(R.id.unit_desc_text);
 
         ivUnitType.setImageResource(mImage[position]);
         tvUnitName.setText(mUnitCategory[position]);

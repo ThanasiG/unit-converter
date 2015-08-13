@@ -1,20 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="conversion_types">
-        <item>kilogram</item>
-        <item>metricTon</item>
-        <item>hectogram</item>
-        <item>dekagram</item>
-        <item>gram</item>
-        <item>carat</item>
-        <item>decigram</item>
-        <item>centigram</item>
-        <item>milligram</item>
-        <item>microgram</item>
-        <item>longTon</item>
-        <item>shortTon</item>
-        <item>pound</item>
-        <item>ounce</item>
-        <item>dram</item>
+    <string-array name="area_conversions">
+        <item>Square Kilometer</item>
+        <item>Hectare</item>
+        <item>Square Meter</item>
+        <item>Square Centimeter</item>
+        <item>Square Mile</item>
+        <item>Acre</item>
+        <item>Square Yard</item>
+        <item>Square Foot</item>
+        <item>Square Inch</item>
     </string-array>
+
+    <string-array name="currency_conversions">
+
+        <item>United States Dollar</item>
+        <item>Euro</item>
+        <item>British Pound</item>
+        <item>Canadian Dollar</item>
+        <item>Australian Dollar</item>
+        <item>Brazilian Real</item>
+        <item>Bulgarian Lev</item>
+        <item>Chinese Yuan</item>
+        <item>Croatian Kuna</item>
+        <item>Czech Koruna</item>
+        <item>Danish Krone</item>
+        <item>Hong Kong Dollar</item>
+        <item>Hungarian Forint</item>
+        <item>Indian Rupee</item>
+        <item>Indonesian Rupiah</item>
+        <item>Israeli New Sheqel</item>
+        <item>Japanese Yen</item>
+        <item>Malaysian Ringgit</item>
+        <item>Mexican Peso</item>
+        <item>New Zealand Dollar</item>
+        <item>Norwegian Krone</item>
+        <item>Philippine Peso</item>
+        <item>Polish Zloty</item>
+        <item>Romanian Leu</item>
+        <item>Russian Ruble</item>
+        <item>South African Rand</item>
+        <item>South Korean Won</item>
+        <item>Singapore Dollar</item>
+        <item>Swedish Krona</item>
+        <item>Swiss Franc</item>
+        <item>Thai Baht</item>
+        <item>Turkish Lira</item>
+    </string-array>
+
+    <string-array name="digital_storage_conversions">
+        <item>Terabyte</item>
+        <item>Terabit</item>
+        <item>Gigabyte</item>
+        <item>Gigabit</item>
+        <item>Megabyte</item>
+        <item>Megabit</item>
+        <item>Kilobyte</item>
+        <item>Kilobit</item>
+        <item>Byte</item>
+        <item>Bit</item>
+    </string-array>
+
+    <string-array name="energy_conversions">
+        <item>Gigajoule</item>
+        <item>Megajoule</item>
+        <item>Kilojoule</item>
+        <item>Joule</item>
+        <item>Ergs</item>
+        <item>Kilocalorie</item>
+        <item>Calorie</item>
+        <item>Nutritional Calorie</item>
+        <item>Kilowatt-Hour</item>
+        <item>Watt-Hour</item>
+        <item>Foot-Pound</item>
+        <item>Inch-Pound</item>
+        <item>BTU</item>
+        <item>Electronvolt</item>
+    </string-array>
+
+    <string-array name="weight_conversions">
+        <item>Metric Ton</item>
+        <item>Kilogram</item>
+        <item>Hectogram</item>
+        <item>Dekagram</item>
+        <item>Gram</item>
+        <item>Carat</item>
+        <item>Decigram</item>
+        <item>Centigram</item>
+        <item>Milligram</item>
+        <item>Microgram</item>
+        <item>Long Ton</item>
+        <item>Short Ton</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+        <item>Dram</item>
+        <item>Grain</item>
+    </string-array>
+
 </resources>
