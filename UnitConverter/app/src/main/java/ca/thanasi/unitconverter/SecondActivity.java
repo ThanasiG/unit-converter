@@ -14,6 +14,9 @@ import ca.thanasi.unitconverter.area.AreaFragment;
 import ca.thanasi.unitconverter.currency.CurrencyFragment;
 import ca.thanasi.unitconverter.digitalstorage.DigitalStorageFragment;
 import ca.thanasi.unitconverter.energy.EnergyFragment;
+import ca.thanasi.unitconverter.fuelconsumption.FuelConsumptionFragment;
+import ca.thanasi.unitconverter.length.LengthFragment;
+import ca.thanasi.unitconverter.temperature.TemperatureFragment;
 import ca.thanasi.unitconverter.weight.WeightFragment;
 
 public class SecondActivity extends AppCompatActivity {
@@ -51,6 +54,26 @@ public class SecondActivity extends AppCompatActivity {
             ft.replace(R.id.fragment_placeholder, energyFragment);
             ft.commit();
         } else if (position_clicked == 4) {
+            FuelConsumptionFragment fuelConsumptionFragment = new FuelConsumptionFragment();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_placeholder, fuelConsumptionFragment);
+            ft.commit();
+        } else if (position_clicked == 5) {
+            LengthFragment lengthFragment = new LengthFragment();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_placeholder, lengthFragment);
+            ft.commit();
+        } /*else if (position_clicked == 6) {
+            ShoeSizeFragment shoeSizeFragment = new ShoeSizeFragment();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_placeholder, shoeSizeFragment);
+            ft.commit();
+        }*/ else if (position_clicked == 7) {
+            TemperatureFragment temperatureFragment = new TemperatureFragment();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_placeholder, temperatureFragment);
+            ft.commit();
+        } else if (position_clicked == 8) {
             WeightFragment weightFragment = new WeightFragment();
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.fragment_placeholder, weightFragment);

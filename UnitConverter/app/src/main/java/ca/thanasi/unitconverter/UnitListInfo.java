@@ -3,8 +3,8 @@ package ca.thanasi.unitconverter;
 
 public class UnitListInfo {
 
-    public static int[] UNIT_IMAGES = {R.mipmap.ic_area, R.mipmap.ic_currency, R.mipmap.ic_digital, R.mipmap.ic_energy, R.mipmap.ic_weight};
-    public static final String[] UNIT_CATEGORIES = {"Area", "Currency", "Digital Storage", "Energy", "Weight and Mass"};
+    public static int[] UNIT_IMAGES = {R.mipmap.ic_area, R.mipmap.ic_currency, R.mipmap.ic_digital, R.mipmap.ic_energy, R.mipmap.ic_fuelconsumption, R.mipmap.ic_length, R.mipmap.ic_shoesize, R.mipmap.ic_temperature, R.mipmap.ic_weight};
+    public static final String[] UNIT_CATEGORIES = {"Area", "Currency", "Digital Storage", "Energy", "Fuel Consumption", "Length", "Shoe Size", "Temperature", "Weight and Mass"};
     public static final String[] UNIT_DESCRIPTIONS =
             {
                     //Area
@@ -18,6 +18,18 @@ public class UnitListInfo {
 
                     //Energy
                     "Gigajoule, Megajoule, Kilojoule, Joule, Ergs, Kilocalorie, Calorie, Nutritional Calorie, Kilowatt-Hour, Watt-Hour, Foot-Pound, Inch-Pound, BTU, Electronvolt",
+
+                    //Fuel Consumption
+                    "US MPG, Imperial MPG, Kilometer/Liter, Liter/100 Kilometer, Miles/Litre",
+
+                    //Length
+                    "Kilometer, Meter, Centimeter, Millimeter, Mile, Yard, Foot, Inch, Nautical Mile, Furlong, Light Year",
+
+                    //Shoe Size
+                    "Men US Size, Women US Size, Men UK Size, Women UK Size, Men Euro Size, Women Euro Size, Centimeter, Inch",
+
+                    //Temperature
+                    "Celsius, Fahrenheit, Kelvin",
 
                     //Weight and Mass
                     "Metric Ton, Kilogram, Hectogram, Decagram, Gram, Decigram, Centigram, Milligram, Long Ton, Short Ton, Pound, Ounce, Dram, Grain, Mt, Kg, Lbs, Oz"

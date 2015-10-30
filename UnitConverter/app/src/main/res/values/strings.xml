@@ -77,6 +77,33 @@
     <string name="title_btu">British Thermal Unit (btu)</string>
     <string name="title_electronvolt">Electronvolt (eV)</string>
 
+    <string name="title_activity_fuel_consumption">Fuel Consumption</string>
+    <string name="title_usmpg">US Miles Per Gallon (MPG)</string>
+    <string name="title_impmpg">Imperial Miles Per Gallon (MPG)</string>
+    <string name="title_kml">Kilometer/Liter (km/L)</string>
+    <string name="title_lkm">Litres/100 Kilometer (L/100km)</string>
+    <string name="title_mpl">Miles/Liter (mi/L)</string>
+
+    <string name="title_activity_length">Length</string>
+    <string name="title_km">Kilometer (km)</string>
+    <string name="title_m">Meter (m)</string>
+    <string name="title_cm">Centimeter (cm)</string>
+    <string name="title_mm">Millimeter (mm)</string>
+    <string name="title_mim">Micrometer (μm)</string>
+    <string name="title_nm">Nanometer (nm)</string>
+    <string name="title_mi">Mile (mi)</string>
+    <string name="title_yd">Yard (yd)</string>
+    <string name="title_ft">Foot (ft)</string>
+    <string name="title_in">Inch (in)</string>
+    <string name="title_nmi">Nautical Mile (NM)</string>
+    <string name="title_fur">Furlong (fur)</string>
+    <string name="title_ly">Lightyear (ly)</string>
+
+    <string name="title_activity_temperature">Temperature</string>
+    <string name="title_celsius">Celsius (\u00B0 C)</string>
+    <string name="title_fahrenheit">Fahrenheit (\u00B0 F)</string>
+    <string name="title_kelvin">Kelvin (\u00B0 K)</string>
+
     <string name="title_activity_weight">Weight and Mass</string>
     <string name="title_metric_ton">Metric Ton (MT)</string>
     <string name="title_kilogram">Kilogram (kg)</string>

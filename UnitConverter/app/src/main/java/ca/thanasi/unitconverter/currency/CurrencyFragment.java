@@ -554,7 +554,7 @@ public class CurrencyFragment extends Fragment {
     public void setCurrencyVariableValues() {
         unitedstatesCurr = 1.1215d;
         //Euro not needed. Its the base value, will always be 1.0d
-        britishCurr = 0.7071d;
+        britishCurr = 1;//0.7071d;
         canadianCurr = 1.4863d;
         australianCurr = 1.4884;
         brazilianCurr = 3.8559;
