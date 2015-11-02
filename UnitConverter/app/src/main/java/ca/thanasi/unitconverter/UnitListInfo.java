@@ -20,10 +20,10 @@ public class UnitListInfo {
                     "Gigajoule, Megajoule, Kilojoule, Joule, Ergs, Kilocalorie, Calorie, Nutritional Calorie, Kilowatt-Hour, Watt-Hour, Foot-Pound, Inch-Pound, BTU, Electronvolt",
 
                     //Fuel Consumption
-                    "US MPG, Imperial MPG, Kilometer/Liter, Liter/100 Kilometer",
+                    "US MPG, Imperial MPG, Kilometer/Liter, Liter/100 Kilometer, Miles/Litre",
 
                     //Length
-                    "Kilometer, Meter, Centimeter, Millimeter, Mile, Yard, Foot, Inch, Nautical Mile",
+                    "Kilometer, Meter, Centimeter, Millimeter, Mile, Yard, Foot, Inch, Nautical Mile, Furlong, Light Year",
 
                     //Shoe Size
                     "Men US Size, Women US Size, Men UK Size, Women UK Size, Men Euro Size, Women Euro Size, Centimeter, Inch",

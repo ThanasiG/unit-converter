@@ -78,6 +78,36 @@
         <item>Electronvolt</item>
     </string-array>
 
+    <string-array name="fuel_consumption_conversions">
+        <item>US MPG</item>
+        <item>Imperial MPG</item>
+        <item>km/L</item>
+        <item>L/100km</item>
+        <item>mi/L</item>
+    </string-array>
+
+    <string-array name="length_conversions">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Millimeter</item>
+        <item>Micrometer</item>
+        <item>Nanometer</item>
+        <item>Mile</item>
+        <item>Yard</item>
+        <item>Foot</item>
+        <item>Inch</item>
+        <item>Nautical Mile</item>
+        <item>Furlong</item>
+        <item>Light Year</item>
+    </string-array>
+
+    <string-array name="temperature_conversions">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
     <string-array name="weight_conversions">
         <item>Metric Ton</item>
         <item>Kilogram</item>

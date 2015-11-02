@@ -9,8 +9,8 @@ public class AreaConversions {
 
     public static enum Area {
         sqKilometer(0.000001d), hectare(0.0001d), sqMeter(1.0d), sqCentimeter(10000d),
-        sqMile(0.0000003861021585425d), acre(0.0002471053814672d), sqYard(1.19599d),
-        sqFoot(10.76391041671d), sqInch(1550.003100006d);
+        sqMile(0.0000003861021585425d), acre(0.0002471053814672d), sqYard(1.19599004630108d),
+        sqFoot(10.7639104167097d), sqInch(1550.0031000062d);
 
         final static Area baseArea = sqMeter;
 
